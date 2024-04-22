@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": " 'Courier New'",
+    		"editor.fontSize": 19,
+    		"editor.tabSize": 2,
+    		"editor.minimap.enabled": false,
+    		"editor.fontWeight": "bold"
+	}
+}

@@ -1,0 +1,14 @@
+Create User credential in GitHub
+Create User credential in JFrog
+Have a system with Jenkins, Maven, Tomcat Server and Sonarqube Server
+Download Spring pet-clinic as sample Java Web application. Create a repository in GitHub and push the spring pet-clinic code
+Create a pipeline (Groovy Scripted pipeline) in Jenkins
+	Gets the code (spring pet-clinic) from GitHub
+	Builds using Maven
+	Generates Artifcat (WAR/JAR)
+	Publish the artifact to JFrog
+	Deploy/Run the artifact 
+	Hit the url in browser
+Create a multibranch pipeline. 
+	When a new branch created in GitHub 
+		Automatically creates a pipelinejob in Jenkins and perform above steps over new branch
